@@ -23,10 +23,10 @@ Request objects can be constructed with or without using the `new` keyword.
 var JsonRpcRequest = require('json-rpc-request');
 
 // Request with params
-new JsonRpcRequest(1, 'update', [1, 2, 3]);
+new JsonRpcRequest(1, 'subtract', [42, 23]);
 
 // Request without params
-new JsonRpcRequest(2, 'foobar');
+new JsonRpcRequest(2, 'ping');
 ```
 
 ## Test
