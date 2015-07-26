@@ -5,7 +5,6 @@ var id = 1;
 var method = 'someMethod';
 var params = 'some params';
 
-
 describe('JSON RPC 2.0 request', function() {
   it('should create request using the `new` keyword', function() {
     var req = new JsonRpcRequest(id, method, params);
