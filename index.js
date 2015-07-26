@@ -7,7 +7,7 @@ var JsonRpcRequest = function(id, method, params) {
     throw new TypeError('Invalid id type ' + typeof id);
   }
 
-  if (!method) {
+  if (typeof method !== 'string') {
     throw new Error('Invalid method');
   }
 

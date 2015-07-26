@@ -42,11 +42,11 @@ describe('JSON RPC 2.0 request', function() {
     assert(requestError);
   });
 
-  it('should throw if not passing a method', function() {
+  it('should throw if method is not a string', function() {
     var requestError;
 
     try {
-      new JsonRpcRequest(id);
+      new JsonRpcRequest(id, true, params);
     } catch (err) {
       requestError = err;
     }
