@@ -1,0 +1,34 @@
+{
+  "name": "json-rpc-request",
+  "version": "1.0.0",
+  "description": "JSON RPC 2.0 request object constructor.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --check-leaks --reporter spec --bail --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudijo/json-rpc-request.git"
+  },
+  "keywords": [
+    "json",
+    "rpc",
+    "request"
+  ],
+  "author": "Claudijo Borovic <hello@claudijo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudijo/json-rpc-request/issues"
+  },
+  "homepage": "https://github.com/claudijo/json-rpc-request#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "files": [
+    "LICENSE",
+    "index.js"
+  ]
+}
